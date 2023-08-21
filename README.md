@@ -37,19 +37,29 @@ CGI and Common HTTP Features
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/AQDPGIB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://imgur.com/JlyLCsC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/duHHYZX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/AQDPGIB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I created a virtual machine in Azure as shown on the screenshot above, and logged in to the vm using Remote Desktop. I then Install / Enable IIS in Windows WITH CGI and Common HTTP Features and IIS Management Console and to make sure the IIS features was enabled successfully I searched 127.0.0.1 on my browser. The features to be enable are shown on the screenshot above
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/jqmKoqM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Created a PHP folder in Local Disk C
+  Downloaded and installed PHP Manager for IIS, Rewrite Module. Dowloaded PHP 7.3.8 and unzip the contents into C:\PHP. Downloaded and install VC_redist.x86.exe and MySQL 5.5.62. Registered PHP from within IIS(open IIS as admin).
+
+<p>
+<img src="https://imgur.com/dAiWUzF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Dowloaded, Installed and setup osTicket v1.15.8:
+Extract and copy “upload” folder to c:\inetpub\wwwroot. Within c:\inetpub\wwwroot, Rename “upload” to “osTicket.Reload IIS and click "browse 80" on the right. Some extensions are still disabled so to enable them double-click PHP Manager then Click “Enable or disable an extension”.Enable: php_imap.dll, php_intl.dll and php_opcache.dll. Refresh the osTicket site in your browse, observe the changes. Rename: ost-config.php to ost-config.php. Assign full Permissions for everyone to            ost-config.php. Click continue on the osTicket in the browser
+
+
+- download and install HeidiSQL.
 </p>
 <br />
 
